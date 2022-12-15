@@ -1,0 +1,28 @@
+.footer {
+  background-color: $backgroundpink;
+  text-transform: uppercase;
+}
+
+.foooter-titile {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  font-family: $titan;
+  margin-bottom: 43px;
+}
+
+.foooter-titile__label {
+  max-width: 232px;
+  color: $pink;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.footer-title__main {
+  max-width: 200px;
+  font-size: 34px;
+  line-height: 1.14;
+  letter-spacing: 0.04em;
+  color: $darkpink;
+}
