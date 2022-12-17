@@ -1,0 +1,39 @@
+.review__card
+{display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.review__content
+{font-size: 12px;
+    font-weight: 500;
+    line-height: 30.6px;
+    text-align: center;
+font-size: 12px;
+font-weight: 500;
+line-height: 30.6px;
+text-align: center;
+padding: 43px 66px 0 57px;
+width: 100%;
+background-color: $lgrey;
+
+}
+
+.review__customer-avatar{
+    padding-bottom: 29px;
+    padding-top: 80px;
+}
+
+.review-background__icon{
+    position: absolute;
+        width: 54px;
+        height: 40px;
+        
+}
+
+.review__suspointspnk {
+        width: 32px;
+        height: 4px;
+        margin-top: 30px;
+        align-items: center;
+}
+review__customer-orgin{}
