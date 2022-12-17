@@ -37,6 +37,7 @@
   line-height: 21px;
   color: $white;
   cursor: pointer;
+  transition: color 250ms $cubic-bezier;
 }
 .nav__about-us {
   &:hover {
@@ -51,6 +52,7 @@
   line-height: 21px;
   color: $white;
   cursor: pointer;
+  transition: color 250ms $cubic-bezier;
 }
 .nav__how-its-made {
   &:hover {
@@ -65,6 +67,7 @@
   line-height: 21px;
   color: $white;
   cursor: pointer;
+  transition: color 250ms $cubic-bezier;
 }
 .nav__our-products {
   &:hover {
@@ -79,6 +82,7 @@
   line-height: 21px;
   color: $white;
   cursor: pointer;
+  transition: color 250ms $cubic-bezier;
 }
 .nav__contacts {
   &:hover {
@@ -93,6 +97,7 @@
   line-height: 21px;
   color: $white;
   cursor: pointer;
+  transition: color 250ms $cubic-bezier;
 }
 
 .button {
