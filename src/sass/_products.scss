@@ -1,0 +1,120 @@
+.products {
+  margin-top: 30px;
+}
+
+.products__title {
+  font-family: 'Titan one';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 0.39;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #d41443;
+  margin-bottom: 31px;
+  margin-top: 35px;
+  text-align: center;
+}
+.products__upper--title {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.21;
+  text-align: center;
+  color: #ffa5ba;
+  margin-bottom: 15px;
+}
+.products__list {
+  display: grid;
+  grid-template-columns: 280px 1;
+  gap: 17px;
+  // @media screen and (min-width: 768px) {
+  //   grid-template-columns: repeat(3, 1fr);
+  //   gap: 20px;
+  // }
+}
+.products__dots {
+  position: absolute;
+}
+
+.products__description {
+  font-family: 'DM sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 152%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.products__list--title {
+  font-family: 'Titan one';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.products__list--icecream {
+  background-color: #ffb8ca;
+  border-radius: 24px;
+  width: 280px;
+  height: 485px;
+  margin-top: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.products__list--icecoffe {
+  background-color: #f0d1a5;
+  border-radius: 24px;
+  width: 280px;
+  height: 485px;
+  margin-top: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.products__list--milkshakes {
+  background-color: #c2e297;
+  border-radius: 24px;
+  width: 280px;
+  height: 485px;
+  margin-top: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.products__list--wrapper {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-top: -160px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  // @media screen and (min-width: 768px) {
+  //   width: 220px;
+  //   margin-top: 39px;
+  // }
+}
+
+.products__dots {
+  position: absolute;
+  width: 26px;
+  height: 6px;
+  left: 147px;
+  top: 1053px;
+}
+.products__button {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  border-radius: 90%;
+  background-color: transparent;
+}
