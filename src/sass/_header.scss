@@ -1,14 +1,21 @@
 .hero-header {
   background: $lightpink;
-  width: 100%;
-  margin: auto;
+}
+.support {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  @media screen and (min-width: $tablet) {
+    justify-content: space-between;
+  }
 }
 
 .hero-header__logo {
-  margin: 37px auto;
+  @media screen and (min-width: $tablet) {
+    padding-top: 37px;
+  }
+  @media screen and (min-width: $desktop) {
+    padding-top: 37px;
+  }
   cursor: pointer;
 }
 
@@ -17,11 +24,10 @@
   @media screen and (min-width: $desktop) {
     display: flex;
     flex-direction: row;
-    max-width: 1600px;
-    width: 541px;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
+    width: 100%;
+    align-items: flex-start;
+    padding: 50px 55px;
+    gap: 35px;
   }
 }
 .nav__home {
@@ -99,6 +105,13 @@
   cursor: pointer;
   transition: color 250ms $cubic-bezier;
 }
+.nav__list {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
 
 .button {
   display: none;
@@ -113,9 +126,9 @@
     box-shadow: none;
     width: 159px;
     height: 44px;
+    gap: 12px;
     align-items: center;
     justify-content: center;
-    margin: auto;
     cursor: pointer;
     transition: 250ms box-shadow $cubic-bezier, 250ms background-color $cubic-bezier,
       250ms text-decoration $cubic-bezier;
@@ -137,23 +150,46 @@
   }
 }
 .buy-now__icon {
+  width: 4px;
+  height: 8px;
   fill: $darkpink;
+  transition: fill 250ms $cubic-bezier;
+  &:hover {
+    fill: $white;
+  }
 }
 .buttons {
   display: flex;
-  margin: auto;
+  max-width: 100%;
   @media screen and (min-width: $tablet) {
+    display: flex;
     flex-direction: row-reverse;
+    padding-top: 38px;
   }
 }
 ul {
   list-style: none;
 }
 .mobile-menu-button {
+  fill: $darkpink;
+  position: absolute;
+  width: 20px;
+  height: 12px;
+  top: 20px;
+  right: 20px;
   display: flex;
-  display: inline-flex;
   background-color: transparent;
-  // border: none;
+  transition: fill 250ms $cubic-bezier;
+  will-change: fill;
+  &:hover,
+  &:focus {
+    fill: $lgrey;
+  }
+  border: none;
+  @media screen and (min-width: $tablet) {
+    position: relative;
+    top: 12px;
+  }
 
   @media screen and (min-width: $desktop) {
     display: none;
