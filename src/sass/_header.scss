@@ -1,0 +1,10 @@
+.hero-header {
+  background: $lightpink;
+  width: 100%;
+  max-width: 480px;
+
+  &__logo {
+    padding-top: 6px;
+    padding-left: 20px;
+  }
+}
